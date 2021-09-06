@@ -69,40 +69,43 @@ h1{
     width: 100%;
 }
 .circle1{
-            
+    background-repeat: no-repeat;
+    background-size: cover  ;
     border-radius: 50%;
     height: 180px;
-    width: 180px;
+    width: 25%;
     margin: 30px;
     background-image:url(..//Images/cartoon2.jpeg);
-    border: 2px solid gray;
+    border: 2px solid black;
 }
 .circle2{
             
     border-radius: 50%;
     height: 180px;
-    width: 180px;
+    width: 25%;
     margin: 30px;
     background-image:url(..//Images/circle2.jpeg);
     background-repeat: no-repeat;
     background-size: cover  ;
-    border: 2px solid grey;
+    border: 2px solid black;
 }
 .circle3{
-            
+    background-repeat: no-repeat;
+    background-size: cover  ;
     border-radius: 50%;
     height: 180px;
-    width: 180px;
+    width: 25%;
     margin: 30px;
     background-image:url(..//Images/circle3.jpeg);
-    border: 2px solid gray;
+    border: 2px solid black;
 }
 .circle4{
-            
-    border: 2px solid gray;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    border: 2px solid black;
     border-radius: 50%;
     height: 180px;
-    width: 180px;
+    width: 25%;
     margin: 30px;
     background-image:url(..//Images/cartoon1.png);
 }
@@ -166,6 +169,7 @@ h1{
 
 #container{
     display: inline-flex;
+    width: 100%;
 }
 
 .box{
@@ -173,9 +177,10 @@ h1{
     margin: 30px;
     padding: 10px;
     background-color:lightgray;
-    width: 210px;
+    width: 25%;
     height: 380px;
     overflow: hidden;
+    box-shadow: 10px 5px 5px gray;
     border-radius: 10px;
     margin-right:10px;
     margin-bottom: 10px;
