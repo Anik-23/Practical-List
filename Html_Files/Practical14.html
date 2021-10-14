@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+         *{
+            margin: 0;padding: 0;box-sizing: border-box;
+            background-color: black;
+
+        }
+        .heading{
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+            color:white;
+        }
+        .counter{
+            margin-top: 10px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .counter button{
+            background-color: yellow;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .inc-dec{
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+        }
+    </style>
+
+    <title>Counter</title>
+
+</head>
+<body>
+    <p class="heading">COUNTER</p>
+    <div class="counter">
+        
+        <button type="button" onclick="inClick()">-</button>
+
+        <div class="inc-dec">
+            <a id="click">0</a>
+        </div>
+
+        <button type="button" onclick="onClick()">+</button>
+    </div>
+
+    <script>
+        var click=0;
+function onClick(){
+    click+=1;
+    document.getElementById("click").innerHTML=click;
+};
+function inClick(){
+    if(!click){
+        click=0;   
+    }
+    else{
+    click-=1;    
+    document.getElementById("click").innerHTML=click;
+    }
+
+}
+
+
+    </script>
+</body>
+</html>
